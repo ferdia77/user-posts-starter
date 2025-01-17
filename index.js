@@ -13,7 +13,7 @@ async function main() {
 function showUserPosts(id) {
     localStorage.setItem("id", id)
     console.log(window.location);
-    //window.location.href = `${window.location.origin}/user.html`
+    window.location.href = `${window.location.origin}/user.html`
     console.log(id);
 }
 
